@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HtmlController {
     @GetMapping("/")
     public String index() {
-        return "redirect:/purechat2.html";
+        return "redirect:/stompchat2.html";
     }
 }
